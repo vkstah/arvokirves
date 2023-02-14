@@ -1,0 +1,12 @@
+<script lang="ts">
+	export let fill: string = 'currentColor';
+	export let size: string = '52';
+</script>
+
+<svg height={size} viewBox="0 0 512 512" width={size} xmlns="http://www.w3.org/2000/svg" {fill}
+	><g id="Solid"
+		><path
+			d="m48 368a23.928 23.928 0 0 0 16.971-7.029l135.029-135.03 55.029 55.03a24 24 0 0 0 33.942 0l151.02-151.02-.009 54.049a24 24 0 0 0 24 24 24 24 0 0 0 24-24l.018-112a24 24 0 0 0 -24-24h-112a24 24 0 0 0 0 48h54.059l-134.059 134.059-55.029-55.03a24 24 0 0 0 -33.942 0l-152 152a24 24 0 0 0 16.971 40.971z"
+		/><path d="m464 416h-416a24 24 0 0 0 0 48h416a24 24 0 0 0 0-48z" /></g
+	></svg
+>

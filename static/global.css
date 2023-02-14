@@ -1,0 +1,51 @@
+/*
+  Define global CSS variables.
+*/
+:root {
+	--color-black: #000000;
+	--color-white: #ffffff;
+	--color-green: #22c55e;
+	--color-green-light: #4ade80;
+	--color-green-dark: #16a34a;
+	--color-blue: #2563eb;
+	--color-blue-light: #3b82f6;
+	--color-blue-dark: #1d4ed8;
+	--color-gray: #a1a1aa;
+
+	--color-paragraph: var(--color-gray);
+}
+
+/*
+  Specify font family.
+*/
+body {
+	font-family: 'Inter', sans-serif;
+}
+
+/*
+  Use box-sizing model.
+*/
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/*
+  Remove default margin.
+*/
+* {
+	margin: 0;
+}
+
+/*
+  Apply body background color.
+*/
+body {
+	background-color: #111827;
+}
+
+body,
+html {
+	height: 100%;
+}
